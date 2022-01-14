@@ -10,7 +10,9 @@ const Wrapper = styled.div`
     > div {
       min-height: 200px;
     }
-
+     p, h1,h2,h3,h4,h5,h6 {	
+	margin-bottom: 1em !important;
+    }
     /* Fixes https://github.com/strapi/strapi/issues/11849 */
     /* Fix line height */
     .ck-editor__editable {
